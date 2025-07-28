@@ -1,75 +1,151 @@
-# Hola, soy Max Uriel Sánchez Díaz 👋
-
 <div align="center">
-  <img src="icon.webp" alt="Max Uriel Sánchez Díaz" width="200" style="border-radius: 50%;" />
+  
+  <!-- Banner con gradiente -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Max%20Uriel%20Sánchez%20Díaz&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Ingeniería%20en%20Computación&descAlignY=55&descSize=18"/>
+  
+  <!-- Imagen de perfil con marco -->
+  <img src="icon.webp" alt="Max Uriel Sánchez Díaz" width="180" style="border-radius: 50%; border: 4px solid #00d4ff; margin-top: -90px; background: white; padding: 5px;" />
+  
+  <br><br>
+  
+  <!-- Badges animados -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4FF&background=FFFFFF00&center=true&vCenter=true&width=600&lines=🚀+Full-Stack+Developer;💻+React+%26+Node.js+Specialist;☁️+Cloud+Architecture+Enthusiast;🔧+Building+Scalable+Solutions" alt="Typing Animation" />
+  
 </div>
-
-## 🌐 Mi Portafolio
-
-🔗 **[maxitodev.com](https://maxitodev.com)** - Explora mis proyectos y conoce más sobre mi trabajo
-
-## 🎓 Sobre mí
-Estudiante de **Ingeniería en Computación** con una fuerte inclinación hacia el desarrollo web **Full-Stack**, la arquitectura de software moderna y la implementación de soluciones tecnológicas escalables. Actualmente me encuentro en formación profesional, pero con una base sólida en tecnologías clave del ecosistema web.
-
-## 💻 Stack Tecnológico
-
-### Frontend
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![GSAP](https://img.shields.io/badge/-GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-### Backend
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-
-### Bases de Datos
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-### Cloud & DevOps
-![Google Cloud](https://img.shields.io/badge/-Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-
-### Herramientas & Otros
-![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
-## 🌟 Especialidades
-
-- **🔐 Autenticación Avanzada**: JWT, OAuth (Google)
-- **💳 Pasarelas de Pago**: Stripe, PayPal, MercadoPago
-- **🛠️ REST APIs**: Diseño e implementación robusta
-- **🐧 Administración Linux**: Ubuntu Server, VPS
-- **☁️ Cloud Computing**: GCP, AWS
-- **🎨 UI/UX**: Interfaces modernas y responsivas
-
-## 🚀 Lo que me motiva
-
-Me especializo en crear soluciones que **resuelven problemas reales**, priorizando:
-- ⚡ **Rendimiento** optimizado
-- 🔒 **Seguridad** robusta  
-- 👥 **Experiencia de usuario** excepcional
-- 📈 **Escalabilidad** empresarial
-
-## 🌱 Actualmente
-
-- 🎯 Perfeccionando mis habilidades en arquitecturas modernas
-- 🤖 Explorando integración con IA (OpenAI)
-- 📚 Aprendiendo constantemente nuevas tecnologías
-- 🔍 **Buscando oportunidades** para aplicar mis conocimientos
-
-## 🤝 ¡Conectemos!
-
-¿Te interesa colaborar, intercambiar ideas o compartir experiencias del mundo tech? 
-
-📫 **¡No dudes en escribirme!** Estoy siempre abierto a nuevas oportunidades y conversaciones sobre tecnología.
 
 ---
 
-⭐ *Si mis proyectos te resultan interesantes, ¡no dudes en darles una estrella!*
+<div align="center">
+
+### 🌐 **[🔗 Visita mi Portafolio - maxitodev.com](https://maxitodev.com)**
+
+</div>
+
+---
+
+## 🎯 **Sobre Mí**
+
+<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+
+Estudiante de **Ingeniería en Computación** apasionado por crear soluciones tecnológicas que **impacten positivamente**. Me especializo en desarrollo **Full-Stack** con enfoque en arquitecturas modernas, rendimiento optimizado y experiencias de usuario excepcionales.
+
+<br clear="right"/>
+
+---
+
+## 🛠️ **Stack Tecnológico**
+
+<div align="center">
+
+### **Frontend Development**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,tailwind,html,css" />
+</p>
+
+### **Backend Development**
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postman" />
+</p>
+
+### **Cloud & DevOps**
+<p>
+  <img src="https://skillicons.dev/icons?i=gcp,aws,ubuntu,linux,docker,git,github" />
+</p>
+
+### **Tools & Others**
+<p>
+  <img src="https://skillicons.dev/icons?i=vite,vscode,figma,photoshop" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" height="48"/>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" height="48"/>
+</p>
+
+</div>
+
+---
+
+## 🌟 **Especialidades & Servicios**
+
+<div align="center">
+  
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <h3>🔐 Autenticación Segura</h3>
+        <p>JWT • OAuth (Google) • Sistemas de roles</p>
+      </td>
+      <td align="center" width="50%">
+        <h3>💳 Pasarelas de Pago</h3>
+        <p>Stripe • PayPal • MercadoPago</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <h3>🛠️ REST APIs</h3>
+        <p>Diseño • Implementación • Documentación</p>
+      </td>
+      <td align="center">
+        <h3>☁️ Cloud Computing</h3>
+        <p>GCP • AWS • VPS • Ubuntu Server</p>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+
+---
+
+## 🚀 **Filosofía de Desarrollo**
+
+<div align="center">
+
+```javascript
+const developer = {
+  name: "Max Uriel Sánchez Díaz",
+  focus: ["Performance", "Security", "UX", "Scalability"],
+  mindset: "Solving real problems with modern solutions",
+  currentlyLearning: ["AI Integration", "Modern Architectures"],
+  lookingFor: "Opportunities to grow and contribute"
+};
+```
+
+</div>
+
+---
+
+## 📈 **Estado Actual**
+
+<div align="center">
+  
+  | 🎯 **Enfoque Actual** | 🌱 **Aprendiendo** | 🔍 **Buscando** |
+  |:---:|:---:|:---:|
+  | Arquitecturas Modernas | Integración con IA | Nuevas Oportunidades |
+  | Rendimiento Web | OpenAI APIs | Proyectos Desafiantes |
+  | Experiencia de Usuario | Cloud Native | Colaboraciones |
+
+</div>
+
+---
+
+## 🤝 **¡Conectemos!**
+
+<div align="center">
+  
+  <p>
+    <a href="https://maxitodev.com">
+      <img src="https://img.shields.io/badge/🌐_Portafolio-maxitodev.com-00d4ff?style=for-the-badge&logoColor=white"/>
+    </a>
+  </p>
+  
+  **¿Interesado en colaborar?** 🚀
+  
+  Siempre estoy abierto a nuevas oportunidades, proyectos interesantes y conversaciones sobre tecnología. Si buscas a alguien apasionado por crear soluciones de calidad, ¡hablemos!
+  
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>¡Construyamos algo increíble juntos!</b></em>
+  
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer"/>
+</div>
