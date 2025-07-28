@@ -1,5 +1,9 @@
 # Hola, soy Max Uriel Sánchez Díaz 👋
 
+## 🌐 Mi Portafolio
+
+🔗 **[maxitodev.com](https://maxitodev.com)** - Explora mis proyectos y conoce más sobre mi trabajo
+
 ## 🎓 Sobre mí
 Estudiante de **Ingeniería en Computación** con una fuerte inclinación hacia el desarrollo web **Full-Stack**, la arquitectura de software moderna y la implementación de soluciones tecnológicas escalables. Actualmente me encuentro en formación profesional, pero con una base sólida en tecnologías clave del ecosistema web.
 
@@ -55,10 +59,6 @@ Me especializo en crear soluciones que **resuelven problemas reales**, priorizan
 - 🤖 Explorando integración con IA (OpenAI)
 - 📚 Aprendiendo constantemente nuevas tecnologías
 - 🔍 **Buscando oportunidades** para aplicar mis conocimientos
-
-## 🌐 Mi Portafolio
-
-🔗 **[maxitodev.com](https://maxitodev.com)** - Explora mis proyectos y conoce más sobre mi trabajo
 
 ## 🤝 ¡Conectemos!
 
