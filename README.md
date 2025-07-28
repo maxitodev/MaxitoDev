@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Banner con gradiente -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Max%20Uriel%20Sánchez%20Díaz&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Ingeniería%20en%20Computación&descAlignY=55&descSize=18"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Max%20Uriel%20Sánchez%20Díaz&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Ingeniero%20en%20Computación&descAlignY=55&descSize=18"/>
   
   <!-- Imagen de perfil con marco -->
   <img src="icon.webp" alt="Max Uriel Sánchez Díaz" width="180" style="border-radius: 50%; border: 4px solid #00d4ff; margin-top: -90px; background: white; padding: 5px;" />
@@ -9,7 +9,7 @@
   <br><br>
   
   <!-- Badges animados -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4FF&background=FFFFFF00&center=true&vCenter=true&width=600&lines=🚀+Full-Stack+Developer;💻+React+%26+Node.js+Specialist;☁️+Cloud+Architecture+Enthusiast;🔧+Building+Scalable+Solutions" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D4FF&background=FFFFFF00&center=true&vCenter=true&width=600&lines=🚀+Full-Stack+Developer;💻+React+%26+Node.js+Specialist;☁️+Cloud+Architecture+Enthusiast;🔧+Building+Scalable+Solutions;🎓+Ingeniero+en+Computación" alt="Typing Animation" />
   
 </div>
 
