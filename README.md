@@ -1,5 +1,9 @@
 # Hola, soy Max Uriel Sánchez Díaz 👋
 
+<div align="center">
+  <img src="icon.webp" alt="Max Uriel Sánchez Díaz" width="200" style="border-radius: 50%;" />
+</div>
+
 ## 🌐 Mi Portafolio
 
 🔗 **[maxitodev.com](https://maxitodev.com)** - Explora mis proyectos y conoce más sobre mi trabajo
