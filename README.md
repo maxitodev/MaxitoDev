@@ -151,35 +151,5 @@ console.log("🔥 Ready to build something amazing together!");
 
 </div>
 
----
 
-<div align="center">
-  
-  <!-- Estadísticas de GitHub con tema rojo -->
-  <img src="https://github-readme-stats.vercel.app/api?username=maxidev&show_icons=true&theme=radical&title_color=dc2626&icon_color=dc2626&text_color=333&bg_color=white&border_color=dc2626&border_radius=10" height="180"/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxidev&layout=compact&theme=radical&title_color=dc2626&text_color=333&bg_color=white&border_color=dc2626&border_radius=10" height="180"/>
 
-  <!-- Racha de contribuciones -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maxidev&theme=radical&background=white&border=dc2626&ring=dc2626&fire=dc2626&currStreakNum=333&sideNums=333&currStreakLabel=dc2626&sideLabels=dc2626&dates=666" />
-
-</div>
-
----
-
-<div align="center">
-  
-  <!-- Call to action final con tema rojo -->
-  <h2 style="color: #dc2626;">🤝 ¡Conectemos y Creemos Algo Increíble!</h2>
-  
-  <a href="mailto:max@maxitodev.com">
-    <img src="https://img.shields.io/badge/Email-max@maxitodev.com-dc2626?style=for-the-badge&logo=gmail&logoColor=white&labelColor=991b1b" />
-  </a>
-  
-  <!-- Footer con gradiente rojo -->
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2&height=120&section=footer"
-  />
-  
-</div>
