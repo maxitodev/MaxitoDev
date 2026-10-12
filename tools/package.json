@@ -1,0 +1,15 @@
+{
+  "name": "maxitodev-profile-assets",
+  "private": true,
+  "type": "module",
+  "description": "Generador de los SVG del README de MaxitoDev (texto convertido a trazos, sin fuentes externas).",
+  "scripts": {
+    "build": "node build.mjs",
+    "activity": "node fetch-activity.mjs && node build.mjs activity"
+  },
+  "dependencies": {
+    "lucide-static": "^1.55.0",
+    "opentype.js": "^1.3.4",
+    "simple-icons": "^16.35.0"
+  }
+}

@@ -1,0 +1,57 @@
+name: Actualizar actividad
+
+# Descarga tus contribuciones, regenera assets/activity.svg (la serpiente) y lo guarda en el repo.
+on:
+  schedule:
+    - cron: '17 6 * * *' # todos los días (hora UTC)
+  workflow_dispatch: # botón "Run workflow" en la pestaña Actions
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/activity.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: true
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+
+      - name: Instalar dependencias
+        working-directory: tools
+        run: npm ci
+
+      - name: Descargar contribuciones
+        working-directory: tools
+        run: node fetch-activity.mjs "${{ github.repository_owner }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generar assets/activity.svg
+        working-directory: tools
+        run: node build.mjs activity
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg tools/data/activity.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "chore: actualizar actividad"
+            git push
+          fi
