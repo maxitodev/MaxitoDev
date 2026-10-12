@@ -159,7 +159,6 @@ export function activity({ F, data }) {
   }
   x -= 6 + lw;
   b += doc.text(F.text, less, { x: x + 4, y: ly, size: 15, fill: C.cordel }).svg;
-  b += doc.text(F.text, placeholder ? 'Se llena solo con tus datos de GitHub.' : 'Datos de GitHub, actualizados cada día.', { x: 0, y: ly, size: 15, fill: C.cordel }).svg;
 
   doc.add(b);
   return doc.render();

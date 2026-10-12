@@ -2,15 +2,14 @@
 
 import { Doc, REDUCED_MOTION } from '../lib/svg.mjs';
 import { C } from '../lib/theme.mjs';
-import { lucide } from '../lib/icons.mjs';
 import { flag, quadAt } from '../lib/papel.mjs';
 import { r, darken, pick } from '../lib/util.mjs';
 
 const W = 1000;
-const H = 236;
+const H = 206;
 
 export function footer({ F, P }) {
-  const doc = new Doc({ w: W, h: H, title: 'Gracias por pasar por aquí', desc: `Hecho en ${P.location}.` });
+  const doc = new Doc({ w: W, h: H, title: 'maxitodev.com', desc: P.site });
   doc.css(
     `.sw{animation:sw var(--d) ease-in-out var(--l) infinite alternate}` +
       `@keyframes sw{from{transform:rotate(-2.8deg)}to{transform:rotate(2.8deg)}}` +
@@ -37,16 +36,8 @@ export function footer({ F, P }) {
       `</g></g>`;
   }
 
-  // texto final
-  const line = 'Gracias por pasar por aquí.';
-  const size = 36;
-  b += doc.text(F.title, line, { x: W / 2, y: 176, size, fill: C.chile, anchor: 'middle' }).svg;
-  const place = P.location;
-  const ps = 18;
-  const tw = F.bold.measure(`Hecho en ${place}`, ps);
-  const x0 = W / 2 - (22 + 8 + tw) / 2;
-  b += lucide('map-pin', { x: x0, y: 196, size: 22, color: C.cempasuchil, sw: 2.2 });
-  b += doc.text(F.bold, `Hecho en ${place}`, { x: x0 + 30, y: 196 + 16.5, size: ps, fill: C.cordel }).svg;
+  // dominio
+  b += doc.text(F.title, 'maxitodev.com', { x: W / 2, y: 176, size: 36, fill: C.chile, anchor: 'middle' }).svg;
 
   doc.add(b);
   return doc.render();

@@ -56,6 +56,6 @@
   <a href="mailto:contacto@maxitodev.com"><img src="assets/btn-email.svg" height="52" alt="Escribirme un correo"></a>
 </p>
 
-<p><img src="assets/footer.svg" width="100%" alt="Gracias por pasar por aquí. Hecho en Ciudad de México."></p>
+<p><img src="assets/footer.svg" width="100%" alt="maxitodev.com"></p>
 
 </div>

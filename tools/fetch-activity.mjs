@@ -1,5 +1,5 @@
 // Descarga el calendario de contribuciones de un usuario y lo guarda en data/activity.json.
-// Uso:  node fetch-activity.mjs [usuario]      (con GITHUB_TOKEN usa la API GraphQL; sin token, la página pública)
+// Uso:  node fetch-activity.mjs [usuario]      (lee la página pública del perfil, que incluye las contribuciones privadas si las muestras; si falla, usa GraphQL con GITHUB_TOKEN)
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -49,13 +49,14 @@ async function viaHtml() {
     const id = tag.match(/\bid="([^"]+)"/)?.[1];
     days.push({ date, count: counts.get(id) ?? (level ? 1 : 0), level });
   }
-  if (!days.length) throw new Error('No se pudo leer el calendario de la página');
+  if (days.length < 300) throw new Error('No se pudo leer el calendario de la página');
+  if (counts.size < days.length * 0.9) throw new Error('La página no trae los conteos por día');
   return days;
 }
 
 let days;
 const errors = [];
-for (const [name, fn] of [['graphql', token ? viaGraphQL : null], ['html', viaHtml]]) {
+for (const [name, fn] of [['html', viaHtml], ['graphql', token ? viaGraphQL : null]]) {
   if (!fn) continue;
   try {
     days = await fn();
